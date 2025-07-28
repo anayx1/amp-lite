@@ -1,0 +1,137 @@
+http://localhost:2030/updateDealeredtails
+
+ firstName: "",
+    lastName: "",
+    companyName: "",
+    country: "United States (US)",
+    streetAddress: "",
+    apartmentInfo: "",
+    city: "",
+    state: "California",
+    zipCode: "",
+    phone: "",
+    email: "",
+    createAccount: false,
+    differentAddress: false,
+    paymentMethod: "directBank",
+    termsAccepted: false,
+
+
+sample data for admin dASHBOARD
+
+const sampleData = {
+    stats: [
+        {
+            id: 1,
+            title: "Total User",
+            value: "40,689",
+            icon: Users,
+            iconColor: "bg-blue-100",
+            change: 8.5,
+            changeText: "Up from yesterday",
+            changeType: "increase",
+        },
+        {
+            id: 2,
+            title: "Total Dealer",
+            value: "10293",
+            icon: Package,
+            iconColor: "bg-amber-100",
+            change: 1.3,
+            changeText: "Up from past week",
+            changeType: "increase",
+        },
+        {
+            id: 3,
+            title: "Total revenue",
+            value: "$00,000",
+            icon: DollarSign,
+            iconColor: "bg-green-100",
+            change: 4.3,
+            changeText: "Down from last month",
+            changeType: "decrease",
+        },
+        {
+            id: 4,
+            title: "Total",
+            value: "0000",
+            icon: BarChart3,
+            iconColor: "bg-rose-100",
+            change: 1.8,
+            changeText: "Up from yesterday",
+            changeType: "increase",
+        },
+    ],
+    salesData: [
+        { date: "5-oct", value: 20000 },
+        { date: "6-oct", value: 32000 },
+        { date: "7-oct", value: 45000 },
+        { date: "8-oct", value: 35000 },
+        { date: "9-oct", value: 64366 },
+        { date: "10-oct", value: 45000 },
+        { date: "11-oct", value: 25000 },
+        { date: "12-oct", value: 45000 },
+        { date: "13-oct", value: 55000 },
+        { date: "14-oct", value: 45000 },
+        { date: "15-oct", value: 40000 },
+        { date: "16-oct", value: 45000 },
+    ],
+    dealsData: [
+        {
+            id: 1,
+            productName: "AC",
+            location: "6096 Marjolaine Landing",
+            dateTime: "12.09.2019 - 12:53 PM",
+            price: 423,
+            amount: 34295,
+            status: "Delivered",
+        },
+        {
+            id: 2,
+            productName: "Refrigerator",
+            location: "8237 Schiller Avenue",
+            dateTime: "15.10.2019 - 10:27 AM",
+            price: 899,
+            amount: 12500,
+            status: "Pending",
+        },
+        {
+            id: 3,
+            productName: "Smart TV",
+            location: "4719 Elroy Street",
+            dateTime: "22.10.2019 - 03:15 PM",
+            price: 1250,
+            amount: 28750,
+            status: "Delivered",
+        },
+        {
+            id: 4,
+            productName: "Washing Machine",
+            location: "3852 Wilkinson Road",
+            dateTime: "05.11.2019 - 09:45 AM",
+            price: 675,
+            amount: 8900,
+            status: "Cancelled",
+        },
+        {
+            id: 5,
+            productName: "Microwave Oven",
+            location: "7321 Kuhic Islands",
+            dateTime: "18.11.2019 - 02:30 PM",
+            price: 320,
+            amount: 5600,
+            status: "Delivered",
+        },
+    ],
+}
+
+
+
+GENERAL SETTINGS
+
+    siteName: "",
+        copyright: "",
+        seoTitle: "",
+        seoDescription: "",
+        seoKeywords: "",
+        logo: null
